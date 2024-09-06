@@ -1,0 +1,13 @@
+name: "Archlinux Docker Action"
+description: "Run scripts in Archlinux Docker Container in GitHub Actions"
+author: sharunkumar
+branding:
+  color: blue
+  icon: package
+inputs:
+  script:
+    description: Script to run
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"

@@ -1,0 +1,14 @@
+{
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "github.vscode-github-actions"
+    },
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-action.json": ".github/actions/*.{yml,yaml}"
+    },
+    "[dockerfile]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    }
+}

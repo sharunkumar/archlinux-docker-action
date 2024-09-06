@@ -1,0 +1,13 @@
+diff --git a/makepkg b/makepkg
+index 13cf1a4..a6d9956 100755
+--- a/makepkg
++++ b/makepkg
+@@ -1226,7 +1226,7 @@ if (( ! INFAKEROOT )); then
+ 	if (( EUID == 0 )); then
+ 		error "$(gettext "Running %s as root is not allowed as it can cause permanent,\n\
+ catastrophic damage to your system.")" "makepkg"
+-		exit $E_ROOT
++		# exit $E_ROOT
+ 	fi
+ else
+ 	if [[ -z $FAKEROOTKEY ]]; then
