@@ -2,4 +2,4 @@
 
 neofetch
 
-bash $INPUT_SCRIPT
+bash -e $INPUT_SCRIPT || exit $?
