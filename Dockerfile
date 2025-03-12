@@ -6,7 +6,7 @@ RUN pacman -S --noconfirm --needed --overwrite '*' \
       git fakeroot binutils gcc awk binutils xz \
       libarchive bzip2 coreutils file findutils \
       gettext grep gzip sed ncurses util-linux \
-      pacman-contrib debugedit patch neofetch
+      pacman-contrib debugedit patch fastfetch
 
 COPY . .
 ENV BUILDDIR=/tmp/build

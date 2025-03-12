@@ -1,5 +1,5 @@
 #!/bin/bash
 
-neofetch
+fastfetch --pipe
 
 bash -e $INPUT_SCRIPT || exit $?
